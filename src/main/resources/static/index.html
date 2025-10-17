@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CollabPaint - Parte 2</title>
+    <title>CollabPaint - Parte 3</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="/webjars/jquery/jquery.min.js"></script>
@@ -11,7 +11,13 @@
 </head>
 
 <body onload="app.init()">
-<h2>Dibujo colaborativo</h2>
+<h2>Dibujo colaborativo - Múltiples sesiones</h2>
+
+<label for="drawingId">ID del dibujo:</label>
+<input id="drawingId" type="number" placeholder="Ej: 25">
+<button id="connect">Conectarse</button>
+
+<br><br>
 <canvas id="canvas" width="800" height="600" style="border:1px solid #000000;"></canvas>
 </body>
 </html>
