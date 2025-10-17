@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CollabPaint - Parte 1</title>
+    <title>CollabPaint - Parte 2</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="/webjars/jquery/jquery.min.js"></script>
@@ -12,15 +12,6 @@
 
 <body onload="app.init()">
 <h2>Dibujo colaborativo</h2>
-
-<label for="x">X:</label>
-<input id="x" type="number">
-<label for="y">Y:</label>
-<input id="y" type="number">
-
-<button onclick="app.publishPoint($('#x').val(), $('#y').val())">Enviar punto</button>
-
-<br><br>
 <canvas id="canvas" width="800" height="600" style="border:1px solid #000000;"></canvas>
 </body>
 </html>
